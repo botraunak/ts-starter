@@ -3,7 +3,6 @@
   "type": "module",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "build": "unbuild",
     "dev": "unbuild --stub",
@@ -17,15 +16,15 @@
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "eslint-plugin-prettier": "^5.0.1",
-    "eslint-plugin-simple-import-sort": "^10.0.0",
-    "eslint-plugin-unused-imports": "^3.0.0",
-    "esno": "^4.0.0",
-    "husky": "^8.0.3",
-    "unbuild": "^2.0.0"
+  "config": {
+    "commitizen": {
+      "path": "@commitlint/cz-commitlint"
+    }
   },
   "devDependencies": {
+    "@commitlint/cli": "^18.4.3",
+    "@commitlint/config-conventional": "^18.4.3",
+    "@commitlint/cz-commitlint": "^18.4.3",
     "@types/node": "^20.10.4",
     "@typescript-eslint/eslint-plugin": "^6.13.2",
     "@typescript-eslint/parser": "^6.13.2",
@@ -33,6 +32,13 @@
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-airbnb-typescript": "^17.1.0",
     "eslint-config-prettier": "^9.1.0",
-    "eslint-plugin-import": "^2.29.0"
+    "eslint-plugin-import": "^2.29.0",
+    "eslint-plugin-prettier": "^5.0.1",
+    "eslint-plugin-simple-import-sort": "^10.0.0",
+    "eslint-plugin-unused-imports": "^3.0.0",
+    "esno": "^4.0.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^15.2.0",
+    "unbuild": "^2.0.0"
   }
 }
