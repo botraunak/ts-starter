@@ -13,7 +13,7 @@
     "start": "esno src/index.ts",
     "test": "vitest",
     "typecheck": "tsc --noEmit",
-    "prepare": "simple-git-hooks"
+    "prepare": "husky install"
   },
   "author": "",
   "license": "ISC",
@@ -22,6 +22,7 @@
     "eslint-plugin-simple-import-sort": "^10.0.0",
     "eslint-plugin-unused-imports": "^3.0.0",
     "esno": "^4.0.0",
+    "husky": "^8.0.3",
     "unbuild": "^2.0.0"
   },
   "devDependencies": {
