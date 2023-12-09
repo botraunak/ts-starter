@@ -1,0 +1,37 @@
+
+
+# dependencies
+node_modules/
+
+
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+Thumbs.db
+
+# debug
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# local env files
+.env*.local
+.env
+
+# local folder
+local
+
+full_content_map.ignore.json
+dist
+.turbo
+.sessions
+.wwebjs_cache
+.wwebjs_auth
+build
+*.ignore.*
+coverage/

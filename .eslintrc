@@ -1,0 +1,29 @@
+{
+    // Configuration for JavaScript files
+    
+    "plugins": [
+        "@typescript-eslint",
+        "unused-imports",
+        "simple-import-sort"
+    ],
+    
+    "extends": [
+        "airbnb-base",
+        "airbnb-typescript/base",
+        "plugin:prettier/recommended"
+    ],
+    "parserOptions": {
+        "project": "./tsconfig.json"
+    },
+    "rules": {
+        "prettier/prettier": [
+            "error",
+            {
+            "singleQuote": true,
+            "endOfLine": "auto"
+            }
+        ]
+    },
+    
+  }
+  
