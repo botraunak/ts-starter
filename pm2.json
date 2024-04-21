@@ -1,0 +1,13 @@
+{
+    "name": "ts-starter",
+    "apps": [
+      {
+        "name": "ts-starter-app",
+        "script": "dist/index.mjs"
+      }
+    ],
+    "env": {
+      "NODE_ENV": "production"
+    }
+  }
+  
